@@ -14,14 +14,17 @@ This project simulates the motion of celestial bodies using Python, leveraging N
 ## How It Works
 ### Core Principles
 - **Gravitational Force**:
-  \[
-  F = \frac{G \cdot m_1 \cdot m_2}{r^2}
-  \]
-  where \(G\) is the gravitational constant, \(m_1, m_2\) are masses, and \(r\) is the distance between the bodies.
+  $$F = \frac{G \cdot m_1 \cdot m_2}{r^2}$$
+  where:
+  - $G$ is the gravitational constant,
+  - $m_1, m_2$ are masses, and
+  - $r$ is the distance between the bodies.
 
 - **Motion Update**:
-  - Velocity: \( v = v + a \cdot \Delta t \)
-  - Position: \( x = x + v \cdot \Delta t \)
+  - Velocity:
+    $$v = v + a \cdot \Delta t$$
+  - Position:
+    $$x = x + v \cdot \Delta t$$
 
 ### Implementation Highlights
 - **Class `Body`**: Represents celestial bodies with attributes for mass, position, velocity, and force.
